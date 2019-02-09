@@ -1,0 +1,8 @@
+file_object = open("D:\\Jagadish.txt",'r+')
+print("File content before writing:")
+print(file_object.read())
+file_object.write('\npython is Fun')
+print("File content after writing:")
+file_object.seek(0)
+print(file_object.read())
+file_object.close()
